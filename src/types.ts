@@ -50,7 +50,7 @@ export const dragInDefaultOptions: DDDragInOpt = {
   // scroll: false,
 };
 
-/** 
+/**
  * different layout options when changing # of columns, including a custom function that takes new/old column count, and array of new/old positions
  * Note: new list may be partially already filled if we have a cache of the layout at that size and new items were added later.
  * Options are:

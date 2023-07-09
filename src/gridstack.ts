@@ -801,7 +801,6 @@ export class GridStack {
    * re-layout grid items to reclaim any empty space. Options are:
    * 'list' keep the widget left->right order the same, even if that means leaving an empty slot if things don't fit
    * 'compact' might re-order items to fill any empty space
-   * 
    * doSort - 'false' to let you do your own sorting ahead in case you need to control a different order. (default to sort)
    **/
   public compact(layout: CompactOptions = 'compact', doSort = true): GridStack {
