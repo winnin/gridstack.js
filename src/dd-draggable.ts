@@ -199,7 +199,7 @@ export class DDDraggable extends DDBaseImplement implements HTMLElementExtendOpt
       this.dragging = true;
       DDManager.dragElement = this;
       // if we're dragging an actual grid item, set the current drop as the grid (to detect enter/leave)
-      let grid = (this.el as GridItemHTMLElement).gridstackNode?.grid;
+      let grid = (this.el as GridItemHTMLElement)?.gridstackNode?.grid;
       if (grid) {
         DDManager.dropElement = (grid.el as DDElementHost).ddElement.ddDroppable;
       } else {
